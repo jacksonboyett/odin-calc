@@ -1,3 +1,40 @@
-.display {
-    
-}
+ .page {
+    display: flex;
+    border: 5px solid red;
+    justify-content: center;
+ }
+ .calc {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(119, 244, 255);
+    height: 500px;
+    width: 400px;
+ }
+
+ .display {
+    display: flex;
+    height: 90px;
+    border: 2px solid grey;
+ }
+
+ .buttonPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; 
+    border: 2px solid rgb(219, 238, 8);
+ }
+ 
+ .row {
+    display: flex;
+    gap: 4px;
+    border: 1px solid blue;
+ }
+
+ button {
+    font-size: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 16px;
+    flex-grow: 1;
+ }
