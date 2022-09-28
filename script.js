@@ -25,62 +25,62 @@ function combine(num) {
 };
 
 // ----- BUTTONS OUTPUT NUMBERS -----
-let sevenButton = document.querySelector('#seven');
+let sevenButton = document.querySelector('.seven');
 sevenButton.addEventListener('mousedown', sevenFxn)
 
 function sevenFxn() {
     combine(7);
 }
 
-let eightButton = document.querySelector('#eight');
+let eightButton = document.querySelector('.eight');
 eightButton.addEventListener('mousedown', eightFxn)
 
 function eightFxn() {
     combine(8);
 }
-let nineButton = document.querySelector('#nine');
+let nineButton = document.querySelector('.nine');
 nineButton.addEventListener('mousedown', nineFxn)
 
 function nineFxn() {
     combine(9);
 }
 
-let fourButton = document.querySelector('#four');
+let fourButton = document.querySelector('.four');
 fourButton.addEventListener('mousedown', fourFxn)
 
 function fourFxn() {
     combine(4);
 }
 
-let fiveButton = document.querySelector('#five');
+let fiveButton = document.querySelector('.five');
 fiveButton.addEventListener('mousedown', fiveFxn)
 
 function fiveFxn() {
     combine(5);
 }
 
-let sixButton = document.querySelector('#six');
+let sixButton = document.querySelector('.six');
 sixButton.addEventListener('mousedown', sixFxn)
 
 function sixFxn() {
     combine(6);
 }
 
-let oneButton = document.querySelector('#one');
+let oneButton = document.querySelector('.one');
 oneButton.addEventListener('mousedown', oneFxn)
 
 function oneFxn() {
     combine(1);
 }
 
-let twoButton = document.querySelector('#two');
+let twoButton = document.querySelector('.two');
 twoButton.addEventListener('mousedown', twoFxn)
 
 function twoFxn() {
     combine(2);
 }
 
-let threeButton = document.querySelector('#three');
+let threeButton = document.querySelector('.three');
 threeButton.addEventListener('mousedown', threeFxn)
 
 function threeFxn() {
