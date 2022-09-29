@@ -1,20 +1,50 @@
+body {
+    background-image: url('https://images2.alphacoders.com/141/thumb-1920-141340.jpg')
+}
+
+@font-face {
+    font-family: TronFont;
+    src: url('Tr2n.ttf');
+}
+ 
+ h1 {
+    color: #7DFDFE;
+    font-family: TronFont;
+ }
+
+ .display {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #DF740C;
+    font-size: 80px;
+    padding-right: 4px;
+ }
  .page {
     display: flex;
-    border: 5px solid red;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid red; */
     justify-content: center;
  }
  .calc {
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(119, 244, 255);
+    border: 6px solid #7DFDFE;
+    border-radius: 16px;
     height: 500px;
     width: 400px;
+    padding: 8px;
+    background-color: black;
  }
 
  .display {
     display: flex;
-    height: 90px;
-    border: 2px solid grey;
+    height: 130px;
+    border: 2px solid #7DFDFE;
+    border-radius: 8px;
+    margin: 2px; 
+    margin-bottom: 8px;
  }
 
  .buttonPanel {
@@ -22,19 +52,31 @@
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1; 
-    border: 2px solid rgb(219, 238, 8);
+    /* border: 2px solid rgb(219, 238, 8); */
  }
  
  .row {
     display: flex;
     gap: 4px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
  }
 
  button {
-    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 16px;
     flex-grow: 1;
- }
+    background-color: #7DFDFE;
+    height: 60px;
+}
+
+button:hover {background-color: #DF740C}
+
+button:active {
+  background-color: #7DFDFE;
+  box-shadow: 0 2px #DF740C;
+  transform: translateY(2px);
